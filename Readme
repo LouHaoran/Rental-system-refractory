@@ -1,0 +1,17 @@
+HW5 documentation:
+
+
+Because different types of things may have different sales promotions, So I won't combine them and not managed by one rental or sell class.
+
+In this part:
+1. First I add several class represent for the different types of items including movies, video games, music CDs, xbox, ps4, Earphones and books.
+I also add the Strategy class for them.
+
+2. I add a property named price for every class of item. Mans Selling price.
+
+3. I modified the customer class so that the class can accept the newly defined class object and method.
+
+4. I separate the strategy class because it will be more easy to change the price strategy of every kind of items, but this may cause too many java classes, fine.
+
+5. I add a getPrice() method in each Rental class.
+
