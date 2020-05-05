@@ -38,8 +38,7 @@ public class Ps4 {
             case LITE:
                 pricestrategy = new ps4LitePriceStrategy();
                 pointstrategy = new ps4LiteFrequentpointStrategy();
-            default:
-                throw new IllegalArgumentException("illegal price code");
+
 
         }
     }

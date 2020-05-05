@@ -38,8 +38,6 @@ public class Videogame {
             case NEW_RELEASE:
                 pricestrategy = new videogameNewreleasePriceStrategy();
                 pointstrategy = new videogameNewreleaseFrequentpointStrategy();
-            default:
-                throw new IllegalArgumentException("illegal price code");
 
         }
     }

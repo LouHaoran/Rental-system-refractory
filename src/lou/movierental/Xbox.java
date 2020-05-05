@@ -38,8 +38,6 @@ public class Xbox {
             case LITE:
                 pricestrategy = new xboxLitePriceStrategy();
                 pointstrategy = new xboxLiteFrequentpointStrategy();
-            default:
-                throw new IllegalArgumentException("illegal price code");
 
         }
     }

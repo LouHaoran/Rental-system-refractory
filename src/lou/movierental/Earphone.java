@@ -38,8 +38,8 @@ public class Earphone {
             case HIEND:
                 pricestrategy = new earphoneHiendPriceStrategy();
                 pointstrategy = new earphoneHiendFrequentpointStrategy();
-            default:
-                throw new IllegalArgumentException("illegal price code");
+            //default:
+                //throw new IllegalArgumentException("illegal price code");
 
         }
     }

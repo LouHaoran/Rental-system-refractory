@@ -140,38 +140,38 @@ public class Customer {
         String result = "Rental Record for " + getName() + "\n";
 
         //rent:
-        result +=  "Rent Items:" + "\n";
-        result = "Movie:\n";
+        result +=  "Rent Items:\n";
+        result += "Movie:\n";
         for (movieRental each : movieRentals) {
             // show figures for this rental
             result += "\t" + each.getMovie().getTitle() + "\t" + each.getCharge() + "\n";
         }
-        result = "Book:\n";
+        result += "Book:\n";
         for (bookRental each : bookRentals) {
             // show figures for this rental
             result += "\t" + each.getBook().getTitle() + "\t" + each.getCharge() + "\n";
         }
-        result = "Cd:\n";
+        result += "Cd:\n";
         for (cdRental each : cdRentals) {
             // show figures for this rental
             result += "\t" + each.getCd().getTitle() + "\t" + each.getCharge() + "\n";
         }
-        result = "Earphone:\n";
+        result += "Earphone:\n";
         for (earphoneRental each : earphoneRentals) {
             // show figures for this rental
             result += "\t" + each.getEarphone().getTitle() + "\t" + each.getCharge() + "\n";
         }
-        result = "Xbox:\n";
+        result += "Xbox:\n";
         for (xboxRental each : xboxRentals) {
             // show figures for this rental
             result += "\t" + each.getXbox().getTitle() + "\t" + each.getCharge() + "\n";
         }
-        result = "Ps4:\n";
+        result += "Ps4:\n";
         for (ps4Rental each : ps4Rentals) {
             // show figures for this rental
             result += "\t" + each.getPs4().getTitle() + "\t" + each.getCharge() + "\n";
         }
-        result = "Video game:\n";
+        result += "Video game:\n";
         for (videogameRental each : videogameRentals) {
             // show figures for this rental
             result += "\t" + each.getVideogame().getTitle() + "\t" + each.getCharge() + "\n";
@@ -183,32 +183,32 @@ public class Customer {
             // show figures for this rental
             result += "\t" + each.getMovie().getTitle() + "\t" + each.getPrice() + "\n";
         }
-        result = "Book:\n";
+        result += "Book:\n";
         for (bookRental each : bookSells) {
             // show figures for this rental
             result += "\t" + each.getBook().getTitle() + "\t" + each.getPrice() + "\n";
         }
-        result = "Cd:\n";
+        result += "Cd:\n";
         for (cdRental each : cdSells) {
             // show figures for this rental
             result += "\t" + each.getCd().getTitle() + "\t" + each.getPrice() + "\n";
         }
-        result = "Earphone:\n";
+        result += "Earphone:\n";
         for (earphoneRental each : earphoneSells) {
             // show figures for this rental
             result += "\t" + each.getEarphone().getTitle() + "\t" + each.getPrice() + "\n";
         }
-        result = "Xbox:\n";
+        result += "Xbox:\n";
         for (xboxRental each : xboxSells) {
             // show figures for this rental
             result += "\t" + each.getXbox().getTitle() + "\t" + each.getPrice() + "\n";
         }
-        result = "Ps4:\n";
+        result += "Ps4:\n";
         for (ps4Rental each : ps4Sells) {
             // show figures for this rental
             result += "\t" + each.getPs4().getTitle() + "\t" + each.getPrice() + "\n";
         }
-        result = "Video game:\n";
+        result += "Video game:\n";
         for (videogameRental each : videogameSells) {
             // show figures for this rental
             result += "\t" + each.getVideogame().getTitle() + "\t" + each.getPrice() + "\n";

@@ -38,8 +38,6 @@ public class Cd {
             case NEW_RELEASE:
                 pricestrategy = new cdNewreleasePriceStrategy();
                 pointstrategy = new cdNewreleaseFrequentpointStrategy();
-            default:
-                throw new IllegalArgumentException("illegal price code");
 
         }
     }
